@@ -25,7 +25,7 @@ class UnionSet(IntStream):
         raise NotImplementedError("Implement me.")
 
         
-# 1. Implement `UnionSet` with `UnionSet.next()` method:
+# Exercise 1. Implement `UnionSet` with `UnionSet.next()` method:
 
 a = IntStream([1, 1, 1, 1])
 b = IntStream([1, 3, 4, 4])
@@ -40,7 +40,7 @@ print(c.next())
 # 3
 # 4
 
-# 2. Implement `UnionSet.has_next()` method so that the below is possible:
+# Exercise 2. Implement `UnionSet.has_next()` method so that the below is possible:
 
 a = IntStream([1, 1, 1, 1])
 b = IntStream([1, 3, 4, 4])
